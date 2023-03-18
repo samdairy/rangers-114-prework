@@ -1,0 +1,73 @@
+body,html{
+    background-color: antiquewhite;
+}
+      
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* CSS for hero image */
+.hero-image {
+    background-image: url("./images/hero-image.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+/* CSS for main content */
+main {
+    margin: 50px;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+article h1 {
+    font-size: 30px;
+}
+
+article strong {
+    font-size: 18px;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 600px;
+}
+</style>
+</head>
